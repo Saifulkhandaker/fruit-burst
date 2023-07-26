@@ -33,7 +33,40 @@
       </script>
 </head>
 <body class="font-lato">
-    <header>
+    <header class="w-4/5 m-auto">
+        <!-- nav-section -->
+        <section class="my-10">
+          <div class="navbar lg:bg-[#F85559] rounded-full">
+            <div class="navbar flex w-96 ">
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu text-base text-white font-medium menu-horizontal px-1">
+                  <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li> 
+                </ul>
+              </div>
+              <div class="dropdown flex">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content  mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruits</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="w-96 lg:pl-16 gap-2">
+              <img src="./images/logo.png" alt="">
+              <h3 class="lg:text-white text-2xl font-bold">Fruit Burst</h3>
+            </div>
+            <div class="relative ">
+              <input class="hidden lg:block rounded-full p-3 ml-20" type="text" placeholder="Search here"><i class="hidden lg:block text-[#121212] left-60 absolute fa-solid fa-magnifying-glass"></i>
+            </div>
+        </section>
+
 
     </header>
     <main>
